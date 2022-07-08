@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Memri";
+  src: url(font/MemphisRiver.otf);
+}
+@font-face {
+  font-family: "Oxygen";
+  src: url(font/Oxygen-Bold.ttf);
+}
+body{
+  background-color: turquoise;
+}
+h1{
+  font-family: "Memri";
+  font-size: 72px;
+}
+p{
+  font-family: "Oxygen";
+  color: black;
+  font-size: 30px;
+}
