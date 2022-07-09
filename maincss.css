@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "ps4";
+  src: url(font/Spider-Man.otf);
+}
+@font-face {
+  font-family: "memphis";
+  src: url(font/MemphisRiver.otf);
+}
+body{
+  margin: 0;
+  background-color: crimson;
+}
+header{
+  background-color: #FF2828;
+  text-align: center;
+  border-width: 200px;
+  border-radius: 50px;
+}
+header h1{
+  color: white;
+  font-family: "ps4";
+  font-size: 72px;
+  letter-spacing: 2px;
+}
+
+header img{
+  border-radius: 50px;
+  width: 500px;
+}

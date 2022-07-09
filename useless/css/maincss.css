@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "ps4";
+  src: url(font/Spider-Man.otf);
+}
+body{
+  margin: 0;
+}
+header{
+  background-color: #FF2828;
+  text-align: center;
+}
+header h1{
+  color: white;
+  font-family: "ps4";
+}
+
+header img{
+  border-radius: 50px;
+  width: 500px}
+}
