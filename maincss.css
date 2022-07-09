@@ -6,15 +6,20 @@
   font-family: "memphis";
   src: url(font/MemphisRiver.otf);
 }
+@font-face {
+  font-family: "genocide";
+  src: url(font/BebasNeue-Regular.ttf);
+}
 body{
-  margin: 0;
-  background-color: crimson;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
 }
 header{
   background-color: #FF2828;
   text-align: center;
   border-width: 200px;
   border-radius: 50px;
+  max-width: 100%
 }
 header h1{
   color: white;
@@ -26,4 +31,24 @@ header h1{
 header img{
   border-radius: 50px;
   width: 500px;
+  border: 10px solid white;
+}
+.dark{
+  background-color: darkred;
+}
+main h2{
+  font-family: "genocide";
+  font-size: 72px;
+  text-align: center;
+}
+.padding{
+ padding-top: 20px;
+}
+main{
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+.center{
+  text-align: center;
 }
