@@ -10,8 +10,12 @@
   font-family: "genocide";
   src: url(font/BebasNeue-Regular.ttf);
 }
+@font-face{
+  font-family: "Oceanbold";
+  src: url(font/oxygen-bold.ttf);
+}
 body{
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family:"Oceanbold", "Helvetica", "Arial", sans-serif;
   font-size: 18px;
 }
 header{
@@ -26,6 +30,7 @@ header h1{
   font-family: "ps4";
   font-size: 72px;
   letter-spacing: 2px;
+  text-shadow: 3px 3px black;
 }
 
 header img{
@@ -40,6 +45,9 @@ main h2{
   font-family: "genocide";
   font-size: 72px;
   text-align: center;
+  background-color: #ff0000;
+  color: white;
+  text-shadow: 3px 3px black;
 }
 .padding{
  padding-top: 20px;
@@ -51,4 +59,30 @@ main{
 }
 .center{
   text-align: center;
+}
+footer{
+  background-color: coral;
+  max-width: 100%
+  padding-left: 20px;
+}
+ul,ol{
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+a:visited {
+  color: darkred;
+}
+a:hover {
+  background-color: LightCoral;
+  color: white;
+}
+a:link{
+  color: white;
+}
+.foot{
+  padding-left: 20px;
+  border-left: 20px solid darkred;
 }
