@@ -17,7 +17,6 @@
 header{
   background-color: #FF2828;
   text-align: center;
-  border-width: 200px;
   border-radius: 50px;
   margin: 0;
 }
@@ -57,7 +56,7 @@ main h2{
 main{
   max-width: 800px;
   margin: 0 auto;
-  padding-left: 20px;
+  padding: 20px;
 }
 .center{
   text-align: center;
@@ -87,4 +86,15 @@ a:link{
 .foot{
   padding-left: 20px;
   border-left: 20px solid darkred;
+}
+.foot a{
+  color: crimson;
+}
+.foot p{
+  margin: 0;
+  padding: 20px;
+}
+.foot a:hover{
+  background color: LightCoral;
+  color: white;
 }
