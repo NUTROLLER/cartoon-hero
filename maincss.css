@@ -14,16 +14,12 @@
   font-family: "Oceanbold";
   src: url(font/oxygen-bold.ttf);
 }
-body{
-  font-family:"Oceanbold", "Helvetica", "Arial", sans-serif;
-  font-size: 18px;
-}
 header{
   background-color: #FF2828;
   text-align: center;
   border-width: 200px;
   border-radius: 50px;
-  max-width: 100%
+  margin: 0;
 }
 header h1{
   color: white;
@@ -31,6 +27,8 @@ header h1{
   font-size: 72px;
   letter-spacing: 2px;
   text-shadow: 3px 3px black;
+  padding: 0;
+  margin: 0;
 }
 
 header img{
@@ -40,6 +38,10 @@ header img{
 }
 .dark{
   background-color: darkred;
+}
+body{
+  font-family:"Oceanbold", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
 }
 main h2{
   font-family: "genocide";
@@ -73,7 +75,7 @@ ul,ol{
   padding-bottom: 20px;
 }
 a:visited {
-  color: darkred;
+  color: white;
 }
 a:hover {
   background-color: LightCoral;
