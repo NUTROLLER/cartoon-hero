@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "ps4";
   src: url(font/Spider-Man.otf);
@@ -14,11 +15,15 @@
   font-family: "Oceanbold";
   src: url(404/Oxygen-Bold.ttf);
 }
+body{
+  font-family:"Oceanbold", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+margin: 0 auto;
+padding: 0 auto;
+}
 header{
   background-color: #FF2828;
   text-align: center;
-  border-radius: 50px;
-  margin: 0;
 }
 header h1{
   color: white;
@@ -34,13 +39,11 @@ header img{
   border-radius: 50px;
   width: 500px;
   border: 10px solid white;
+  margin: 0px;
 }
 .dark{
   background-color: darkred;
 }
-body{
-  font-family:"Oceanbold", "Helvetica", "Arial", sans-serif;
-  font-size: 18px;
 }
 main h2{
   font-family: "genocide";
